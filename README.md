@@ -18,6 +18,7 @@ This project integrates **Azure Computer Vision** and **OpenAI GPT-3.5** to crea
    - Provides detailed descriptions of the predicted location.
    - Helps the tourist wander to the best places in Morocco.
    - Gives suggesstions of restaurants, monuments and more...
+   - Provides accurate facts of Morocco's rich history...
 
 ## Prerequisites  
 - **Python 3.8+**  
@@ -69,6 +70,7 @@ python MarhabaBot.py
 #### MarhabaBot.py:
   Combines image analysis with conversational capabilities.
   Analyzes the uploaded image, predicts the location, and provides relevant details based on the conversation context.
+  Guides and accompanies the tourist in his travels inside the kingdom.
 ## Notes
 You must fill in your API keys in the .env file for both Azure and OpenAI.
 Ensure all required libraries are installed before running the scripts.
