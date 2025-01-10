@@ -3,7 +3,7 @@ import requests
 import tkinter as tk
 from tkinter import filedialog
 
-subscription_key = "AXI8ZSPtRDDZTJwGJQfbVdT5trw0MHUP12dCKuqcGFCvT6YEcDHjJQQJ99BAACYeBjFXJ3w3AAAFACOGgtpr"
+subscription_key = os.getenv("AZURE_SUBSCRIPTION_KEY")
 endpoint = "https://marhabaanalyser.cognitiveservices.azure.com/"
 analyze_url = f"{endpoint}vision/v3.1/analyze"
 
